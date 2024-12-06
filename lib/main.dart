@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'Mudei do texto:',
             ),
             Text(
-              '$_counter',
+              _counter == 1 ? "$_counter vez." : "$_counter vezes.",
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
